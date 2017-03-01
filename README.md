@@ -10,8 +10,8 @@ INSTALLATION
 -------------------------------------------------
 Git clone or Download the zip file and unzip it.
 Go to the root path and "make" it,
-then, use command "./SalientBoundaryTracking <video_proc> <gp_flag> <video_path>" to run the code, 
-such as "./SalientBoundaryTracking 1 1 ./TEST_VIDEO.avi".
+then, use command "./SalientBoundaryTracking video_proc <gp_flag video_path" to run the code.
+"./SalientBoundaryTracking 1 1 ./TEST_VIDEO.avi".
 -------------------------------------------------
 video_proc: 
             "0": read file from your webcam
