@@ -6,7 +6,8 @@ The line detector used here is EDLines(EDLines.a) which is proposed in "C. Akinl
 
 The RCC based tracker is adapted from the method developed in "J. S. Stahl and S. Wang, “Edge grouping combining boundary and region information,” IEEE Trans. Image Processing, vol. 16, no. 10, pp. 2590–2606, 2007." We download the code from https://cse.sc.edu/~songwang/software.html.
 
-
+INSTALLATION
+-------------------------------------------------
 Git clone or Download the zip file and unzip it.
 Go to the root path and "make" it,
 then, use command "./SalientBoundaryTracking <video_proc> <gp_flag> <video_path>" to run the code, 
@@ -20,7 +21,7 @@ gp_flag:
              "1": use our BDSP to track
 video_path: specify the video sequence to be loaded.
             If video_proc == 0, it will be neglected.
--------------------------------------------------
+
 (1). Click mouse left button to initialize a
      polygon in "Display" window.
      When read video from a webcam,
@@ -35,6 +36,5 @@ video_path: specify the video sequence to be loaded.
      "TRACKING_RESULTS.txt"
      "RECORDED_RESULTS.avi"
      "RECOREDED_VIDEO.avi"(if video_proc==0).
--------------------------------------------------
 
 # SlientClosedBoundaryTracking
