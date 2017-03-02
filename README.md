@@ -1,6 +1,6 @@
 Slient Closed Boundary Tracking
 ============================
-This code is implemeted for the papper `"Slaient Closed Boundary Tracking via Line Segments Perceptual Grouping, Xuebin Qin, Shida He, Camilo Perez Quintero, Abhineet Singh, masood dehghan and Martin Jagersand."` which is submited to IROS 2017.
+This code is implemeted for the papper `"Slaient Closed Boundary Tracking via Line Segments Perceptual Grouping, Xuebin Qin, Shida He, Camilo Perez Quintero, Abhineet Singh, Masood Dehghan and Martin Jagersand."` which is submited to IROS 2017.
 
 This implementation are tested on `Opencv 2.4.9(3.1.0)`, `Boost 1.63.0` and `ubuntu 14.04 64 bit`.
 
@@ -22,18 +22,18 @@ video_path: specify the video sequence to be loaded. If video_proc == 0, it will
 TRACKING CONTROL
 --------------------------------------------------
 (1). Click mouse left button to initialize a<br>
-　　　　　polygon in `"Display"` window.<br>
-　　　　　When read video from a webcam,<br>
-　　　　　you have to press key `"i"` before<br>
-　　　　　initialization.<br>
+　　polygon in `"Display"` window.<br>
+　　When read video from a webcam,<br>
+　　you have to press key `"i"` before<br>
+　　initialization.<br>
 (2). Click mouse middle button to finish initialization.<br>
 (3). Press key `"space"` to run tracking continuously or<br>
-　　　　　press key `"s"` to run tracking frame by frame.<br>
-　　　　　Key `"r"` can recover the<br>
-　　　　　continuously tracking model).`"Esc"` will quit the tracking.<br>
+　　press key `"s"` to run tracking frame by frame.<br>
+　　Key `"r"` can recover the<br>
+　　continuously tracking model).`"Esc"` will quit the tracking.<br>
 (4). Tracking output are two or three files:<br>
-　　　　　`"TRACKING_RESULTS.txt"`<br>
-　　　　　`"RECORDED_RESULTS.avi"`<br>
-　　　　　`"RECOREDED_VIDEO.avi"`(if video_proc==0).<br>
+　　`"TRACKING_RESULTS.txt"`<br>
+　　`"RECORDED_RESULTS.avi"`<br>
+　　`"RECOREDED_VIDEO.avi"`(if video_proc==0).<br>
 
 # SlientClosedBoundaryTracking
