@@ -12,6 +12,8 @@ This paper presents a novel real-time method for tracking salient closed boundar
 
 The demo video can be found https://www.youtube.com/edit?o=U&video_id=RXjD0yHkukI.
 
+The dataset is published https://github.com/NathanUA/SalientClosedBoundaryTrackingDataset.
+
 Used libraries
 ----------------------------------------------
 This implementation are tested on `Opencv 2.4.9(3.1.0)`, `Boost 1.63.0` and `ubuntu 14.04 64 bit`.
