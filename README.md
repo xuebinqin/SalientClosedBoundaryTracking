@@ -12,7 +12,7 @@ INSTALLATION
 -------------------------------------------------
 Git clone or Download the zip file and unzip it.<br>
 Go to the root path and "make" it,<br>
-then, use command "./SalientBoundaryTracking video_proc <gp_flag video_path" to run the code.<br>
+then, use command "./SalientBoundaryTracking video_proc gp_flag video_path" to run the code.<br>
 `"./SalientBoundaryTracking 1 1 ./TEST_VIDEO.avi"`<br>
 
 video_proc: <br>
