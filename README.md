@@ -54,4 +54,4 @@ TRACKING CONTROL
 (4). Tracking output are two or three files:<br>
 　　`"TRACKING_RESULTS.txt"`<br>
 　　`"RECORDED_RESULTS.avi"`<br>
-　　`"RECOREDED_VIDEO.avi"`(if video_proc==0).<br>
+　　`"RECORDED_VIDEO.avi"`(if video_proc==0).<br>
