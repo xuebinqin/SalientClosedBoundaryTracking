@@ -11,12 +11,12 @@ The RCC based tracker is adapted from the method developed in `"J. S. Stahl and 
 INSTALLATION
 -------------------------------------------------
 Git clone or Download the zip file and unzip it.<br>
-Go to the root path and "make" it,<br>
+Go to the root path and `"make"` it,<br>
 then, use command "./SalientBoundaryTracking video_proc gp_flag video_path" to run the code.<br>
-`"./SalientBoundaryTracking 1 1 ./TEST_VIDEO.avi"`<br>
+For example, `"./SalientBoundaryTracking 1 1 ./TEST_VIDEO.avi"`<br>
 
-video_proc: "0": read file from your webcam, "1": read video from a .avi file <br> 
-gp_flag: 	"0": use RRC adapted method to track,  "1": use our BDSP to track <br>
+video_proc: `"0"`: read file from your webcam, `"1"`: read video from a .avi file <br> 
+gp_flag: 	`"0"`: use RRC adapted method to track,  `"1"`: use our BDSP to track <br>
 video_path: specify the video sequence to be loaded. If video_proc == 0, it will be neglected.
 
 TRACKING CONTROL
