@@ -41,5 +41,3 @@ TRACKING CONTROL
 　　`"TRACKING_RESULTS.txt"`<br>
 　　`"RECORDED_RESULTS.avi"`<br>
 　　`"RECOREDED_VIDEO.avi"`(if video_proc==0).<br>
-
-# SlientClosedBoundaryTracking
