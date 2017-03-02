@@ -2,9 +2,15 @@ Slient Closed Boundary Tracking
 ============================
 This code is implemeted for the papper `"Slaient Closed Boundary Tracking via Line Segments Perceptual Grouping, Xuebin Qin, Shida He, Camilo Perez Quintero, Abhineet Singh, Masood Dehghan and Martin Jagersand."` which is submited to IROS 2017.
 
+Abstract
+-----------------------------------------------
+This paper presents a novel real-time method for tracking salient closed boundaries from video image sequences. This method operates on a set of straight line segments that are produced by line detection. The tracking scheme is coherently integrated into a perceptual grouping framework in which the visual tracking problem is tackled by identifying a subset of these line segments and connecting them sequentially to form a closed boundary with the largest saliency and a certain similarity to the previous one. Specifically, we define a new tracking criteria which combines a grouping cost and an area similarity constraint. This criteria makes the resulting boundary tracking more robust to local minima. To achieve real-time tracking performance, we use Delaunay Triangulation to build a graph model with the detected line segments and then reduce the tracking problem to finding the optimal cycle in this graph. This is solved by our newly proposed closed boundary candidates searching algorithm called "Bidirectional Shortest Path (BDSP)". The efficiency and robustness of the proposed method are tested on real video sequences as well as during a robot arm pouring experiment.
+
+Used libraries
+----------------------------------------------
 This implementation are tested on `Opencv 2.4.9(3.1.0)`, `Boost 1.63.0` and `ubuntu 14.04 64 bit`.
 
-The line detector used here is EDLines(EDLines.a) which is proposed in `"C. Akinlar and C. Topal, EDLines: A real-time line segment detector with a false detection control, Pattern Recognition Letters, vol. 32, no. 13, pp. 1633-1642, 2011."` and can be downloaded from http://ceng.anadolu.edu.tr/CV/downloads/downloads.aspx. We include the lib in the root file. It is worth to note that we are using the 64 bit ubuntu version of EDLines. We sugggest to test our algorithm on a ubuntu 64bit OS.
+The line detector used here is `EDLines(EDLines.a)` which is proposed in `"C. Akinlar and C. Topal, EDLines: A real-time line segment detector with a false detection control, Pattern Recognition Letters, vol. 32, no. 13, pp. 1633-1642, 2011."` and can be downloaded from http://ceng.anadolu.edu.tr/CV/downloads/downloads.aspx. We include the lib in the root directory. It is worthynote that we are using the 64 bit ubuntu version of EDLines. We sugggest to test our algorithm on a ubuntu 64bit OS.
 
 The RCC based tracker is adapted from the method developed in `"J. S. Stahl and S. Wang, “Edge grouping combining boundary and region information,” IEEE Trans. Image Processing, vol. 16, no. 10, pp. 2590–2606, 2007."` We download the code from https://cse.sc.edu/~songwang/software.html.
 
