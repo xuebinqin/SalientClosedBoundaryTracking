@@ -10,7 +10,7 @@ This paper presents a novel real-time method for tracking salient closed boundar
 
 ![SalientClosedBoundaryTracking image](SalientClosedBoundaryTracking.png)<br>
 
-The demo video can be found https://www.youtube.com/edit?o=U&video_id=RXjD0yHkukI.
+The demo video can be found https://youtu.be/RXjD0yHkukI.
 
 The dataset is published https://github.com/NathanUA/SalientClosedBoundaryTrackingDataset.
 
