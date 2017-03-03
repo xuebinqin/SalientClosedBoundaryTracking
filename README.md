@@ -16,7 +16,7 @@ The dataset is published https://github.com/NathanUA/SalientClosedBoundaryTracki
 
 USED LIBRARIES
 ----------------------------------------------
-This implementation requires `Opencv 2.4.9(3.1.0)`, `Boost 1.63.0` and `ubuntu 14.04 64 bit`.
+This implementation is based on `Opencv 2.4.9(3.1.0)`, `Boost 1.63.0` and `ubuntu 14.04 64 bit`.
 
 The line detector used here is `EDLines(EDLines.a)` which is proposed in <br>
 	`"C. Akinlar and C. Topal, EDLines: A real-time line segment detector with a false detection control, Pattern Recognition Letters, vol. 32, no. 13, pp. 1633-1642, 2011."` <br>
