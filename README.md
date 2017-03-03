@@ -26,7 +26,7 @@ The RCC based tracker is adapted from the method developed in <br>
 	`"J. S. Stahl and S. Wang, “Edge grouping combining boundary and region information,” IEEE Trans. Image Processing, vol. 16, no. 10, pp. 2590–2606, 2007."` <br>
 We download the code from https://cse.sc.edu/~songwang/software.html.
 
-INSTALLATION
+QUICKSTART
 -------------------------------------------------
 Git clone or Download the zip file and unzip it.<br>
 Go to the root path<br>
