@@ -57,3 +57,13 @@ TRACKING CONTROL
 　　`"TRACKING_RESULTS.txt"`<br>
 　　`"RECORDED_RESULTS.avi"`<br>
 　　`"RECORDED_VIDEO.avi"`(if video_proc==0).<br>
+
+CONTACTS
+--------
+Xuebin Qin<br>
+Department of Computing Science<br>
+University of Alberta<br>
+Edmonton, AB, Canada, T6G 2E8<br>
+
+Email: xuebin@ualberta.ca<br>
+xuebinua@gmail.com<br>
