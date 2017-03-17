@@ -80,11 +80,7 @@ void CallBackFunc(int event, int x, int y, int flags, void* userdata)
 
 int main(int argc, char* argv[]){
 
-    if(argc==4){
-        video_proc = atoi(argv[1]);
-        gp_flag = atoi(argv[2]);
-    }
-    else if(argc==3){
+    if(argc==3||argc==4){
         video_proc = atoi(argv[1]);
         gp_flag = atoi(argv[2]);
     }
