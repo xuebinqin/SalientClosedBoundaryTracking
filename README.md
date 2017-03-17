@@ -1,7 +1,7 @@
-Slient Closed Boundary Tracking
+Salient Closed Boundary Tracking
 ============================
 This code is implemeted for the paper<br>
-	`"Slaient Closed Boundary Tracking via Line Segments Perceptual Grouping, Xuebin Qin, Shida He, Camilo Perez Quintero, Abhineet Singh, Masood Dehghan and Martin Jagersand."` <br>
+	`"Real-Time Salient Closed Boundary Tracking via Line Segments Perceptual Grouping, Xuebin Qin, Shida He, Camilo Perez Quintero, Abhineet Singh, Masood Dehghan and Martin Jagersand."` <br>
 which is submited to IROS 2017.
 
 ABSTRACT
