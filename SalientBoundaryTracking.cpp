@@ -290,13 +290,13 @@ int main(int argc, char* argv[]){
             draw_contour(frame, points, Scalar(0,255,0), 1);//draw tracked contour of the current frame
             namedWindow("Display", WINDOW_AUTOSIZE);
             imshow("Display",frame);
-
+/*
             char frmNameOverlap[20];
             sprintf(frmNameOverlap,"../SalientClosedBoundaryTracking_Results/BookStand/%04d.png",frame_id);
             string frmNameOPStr;
             frmNameOPStr = frmNameOverlap;
             imwrite(frmNameOPStr,frame);
-
+*/
             save_track_results(points,  "TRACKING_RESULTS.txt");
 
             videor.write(frame);
