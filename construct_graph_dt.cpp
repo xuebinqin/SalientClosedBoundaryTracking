@@ -111,7 +111,7 @@ vector<double*>* construct_graph_dt(vector<double*> allLtable, double WIDTH, dou
         //double aveDist = totalDist;
 
 
-        if(aveDist<30){//average distance to previous contour less than 20
+        if(aveDist<20){//average distance to previous contour less than 20
             aveDists.push_back(aveDist);
             totalDists.push_back(totalDist);
 
