@@ -290,6 +290,18 @@ int main(int argc, char* argv[]){
             draw_contour(frame, points, Scalar(0,255,0), 1);//draw tracked contour of the current frame
             namedWindow("Display", WINDOW_AUTOSIZE);
             imshow("Display",frame);
+
+//-------------save resulting edge map into a folder------------------
+//            Mat rlt = Mat::ones(height, width, CV_8UC1);
+//            for(int i = 0; i< points.size()-1; i++){
+//                line(rlt, points[i], points[i+1],Scalar(255), 1, 8);
+//            }
+//            line(rlt, points[points.size()-1], points[0],Scalar(255), 1, 8);
+
+//            char tmp_name[20];
+//            sprintf(tmp_name,"%04d.png",frame_id+1);
+//            imwrite("../../ShpTkr_data/RRCTracker_png/box_359/"+string(tmp_name),rlt);
+
 /*
             char frmNameOverlap[20];
             sprintf(frmNameOverlap,"../SalientClosedBoundaryTracking_Results/BookStand/%04d.png",frame_id);

@@ -1,6 +1,6 @@
 *~
-*.o
-SalientBoundaryTracking
+#*.o
+#SalientBoundaryTracking
 TRACKING_RESULTS.txt
 RECORDED_RESULTS.avi
 RECORDED_VIDEO.avi
